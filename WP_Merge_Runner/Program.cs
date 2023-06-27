@@ -75,6 +75,7 @@ File.Copy(datTemplatePath, tempDatPath);
 PerfectScript perfectScript = new PerfectScript();
 
 perfectScript.FileOpen(tempDatPath);
+
 perfectScript.PosLineEnd();
 perfectScript.MergeEndRecord();
 
